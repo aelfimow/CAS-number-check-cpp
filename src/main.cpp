@@ -1,14 +1,18 @@
 #include <iostream>
 #include <stdexcept>
 
-#include "cas_number.h"
+#include "check_A.h"
+#include "check_B.h"
 
 
 int main(int argc, char *argv[])
 try
 {
-    (void)argc;
-    (void)argv;
+    argc = argc;
+    argv = argv;
+
+    check_A();
+    check_B();
 
     return EXIT_SUCCESS;
 }
