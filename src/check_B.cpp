@@ -1,4 +1,5 @@
 #include "check_B.h"
+#include "cas_number.h"
 
 void check_B()
 {
