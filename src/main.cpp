@@ -7,6 +7,7 @@
 #include "check_B.h"
 #include "check_C.h"
 #include "check_D.h"
+#include "check_E.h"
 
 
 int main(int argc, char *argv[])
@@ -20,7 +21,8 @@ try
         check_A,
         check_B,
         check_C,
-        check_D
+        check_D,
+        check_E
     };
 
     for (auto &check: check_functions)
