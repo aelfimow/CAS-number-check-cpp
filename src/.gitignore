@@ -5,4 +5,5 @@ check_B.o
 check_C.o
 check_D.o
 check_E.o
+check_F.o
 main.o
