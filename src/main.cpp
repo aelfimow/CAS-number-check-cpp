@@ -1,5 +1,7 @@
 #include <iostream>
 #include <stdexcept>
+#include <list>
+#include <functional>
 
 #include "check_A.h"
 #include "check_B.h"
@@ -13,10 +15,18 @@ try
     argc = argc;
     argv = argv;
 
-    check_A();
-    check_B();
-    check_C();
-    check_D();
+    std::list<std::function<void ()>> check_functions
+    {
+        check_A,
+        check_B,
+        check_C,
+        check_D
+    };
+
+    for (auto &check: check_functions)
+    {
+        check();
+    }
 
     return EXIT_SUCCESS;
 }
