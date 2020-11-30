@@ -3,4 +3,6 @@ cas_number.o
 check_A.o
 check_B.o
 check_C.o
+check_D.o
+check_E.o
 main.o
