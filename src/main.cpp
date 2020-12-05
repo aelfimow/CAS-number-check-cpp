@@ -19,6 +19,7 @@
 #include "check_O.h"
 #include "check_P.h"
 #include "check_R.h"
+#include "check_S.h"
 
 
 int main(int argc, char *argv[])
@@ -44,7 +45,8 @@ try
         check_N,
         check_O,
         check_P,
-        check_R
+        check_R,
+        check_S
     };
 
     for (auto &check: check_functions)
