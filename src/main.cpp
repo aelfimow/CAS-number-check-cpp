@@ -15,6 +15,7 @@
 #include "check_K.h"
 #include "check_L.h"
 #include "check_M.h"
+#include "check_N.h"
 
 
 int main(int argc, char *argv[])
@@ -36,7 +37,8 @@ try
         check_I,
         check_K,
         check_L,
-        check_M
+        check_M,
+        check_N
     };
 
     for (auto &check: check_functions)
