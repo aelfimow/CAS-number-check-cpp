@@ -23,6 +23,7 @@
 #include "check_T.h"
 #include "check_U.h"
 #include "check_V.h"
+#include "check_W.h"
 
 
 int main(int argc, char *argv[])
@@ -52,7 +53,8 @@ try
         check_S,
         check_T,
         check_U,
-        check_V
+        check_V,
+        check_W
     };
 
     for (auto &check: check_functions)
