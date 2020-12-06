@@ -26,6 +26,7 @@
 #include "check_W.h"
 #include "check_X.h"
 #include "check_Y.h"
+#include "check_Z.h"
 
 
 int main(int argc, char *argv[])
@@ -58,7 +59,8 @@ try
         check_V,
         check_W,
         check_X,
-        check_Y
+        check_Y,
+        check_Z
     };
 
     for (auto &check: check_functions)
