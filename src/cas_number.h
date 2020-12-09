@@ -21,6 +21,8 @@ class cas_number
         std::string m_formula;
         std::string m_synonym;
 
+        void error(std::string const &msg);
+
     public:
         cas_number() = delete;
 };
