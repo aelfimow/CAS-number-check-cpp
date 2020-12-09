@@ -583,9 +583,4 @@ void check_A()
         casnr.formula("Au4Cl8").synonym("gold(I,III) chloride");
         casnr.check();
     }
-    {
-        cas_number casnr { "" };
-        casnr.formula("Au4F8").synonym("gold(I,III) fluoride");
-        casnr.check();
-    }
 }
