@@ -1,2 +1,2 @@
 # CAS-number-check-cpp
-Check of CAS Registry Numbers in C++
+Check of some Chemical Abstracts Service (CAS) Registry Numbers in C++.
