@@ -127,7 +127,7 @@ void cas_number::check()
     }
 }
 
-void cas_number::error(std::string const &msg)
+[[noreturn]] void cas_number::error(std::string const &msg)
 {
     std::string error_msg = m_synonym + " (" + m_formula + "): " + msg;
 
